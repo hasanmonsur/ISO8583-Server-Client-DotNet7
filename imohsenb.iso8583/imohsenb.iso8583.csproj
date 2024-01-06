@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFramework>net7.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/imohsenb/ISO8583-Message-Client-DotNet</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/CBidis/CSharp8583/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/imohsenb/ISO8583-Message-Client-DotNet</RepositoryUrl>
+    <Authors>Mohsen Beiranvand</Authors>
+    <PackageTags>ISO8583,8583,ISO,imohsenb.iso8583</PackageTags>
+    <PackageReleaseNotes>Added multiple target framework support (netstandard2.1;netstandard2.0;net48;net47;net46;net45)
+</PackageReleaseNotes>
+    <Description>ISO8583 Message Packer and Unpakcer with ISOClient for communication with iso server</Description>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <Version>2.0.1</Version>
+    <FileVersion>2.0.1.0</FileVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+</Project>
