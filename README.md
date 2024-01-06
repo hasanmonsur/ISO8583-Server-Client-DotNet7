@@ -45,9 +45,9 @@ To create an ISO message you must use ISOMessageBuilder which produce iso messag
 For unpacking a buffer received from server you need to use `ISOMessageBuilder.Unpacker()`:
 
 ```csharp
-ISOMessage isoMessage = ISOMessageBuilder.Unpacker()
-                                    .SetMessage(SAMPLE_HEADER + SAMPLE_MSG)
-                                    .Build();
+        ISOMessage iso = ISOMessageBuilder.Unpacker()
+                .SetMessage(data)
+                .Build();
 ```
 #### Working with ISOMessage object
 ISOMessage object has multiple method provide fields, message body, header and ...
