@@ -1,0 +1,181 @@
+ISO 8583 is a standard for financial transaction messaging, and it defines the message format and data elements used in financial transactions. The specific fields and their meanings can vary depending on the implementation and the version of ISO 8583 being used. However, I can provide you with a general list of commonly used ISO 8583 fields in a payment switch. Note that the field numbers and meanings may vary, so it's essential to refer to the specific ISO 8583 version and implementation you are working with.
+
+Here is a basic list of some common ISO 8583 fields:
+
+First- list: ISO 8583 fields commonly used in a payment switch
+----------------------------------------------------------------
+
+Message Type Indicator (MTI) - Field 0
+Primary Account Number (PAN) - Field 2
+Processing Code - Field 3
+Transaction Amount - Field 4
+Cardholder Billing Amount - Field 6
+Transmission Date and Time - Field 7
+Acquirer Institution Identification Code - Field 32
+Track 2 Data - Field 35
+Merchant Type - Field 41
+Terminal ID - Field 42
+Additional Data (national) - Field 48
+Currency Code - Field 49
+PIN Data - Field 52
+Additional Amounts - Field 54
+Issuer Institution Identification Code - Field 100
+Original Data Elements - Field 123
+
+
+Second List: additional ISO 8583 fields commonly used in a payment switch
+-------------------------
+
+Settlement Amount - Field 5
+Conversion Rate, Cardholder Billing to Transaction Currency - Field 9
+System Trace Audit Number (STAN) - Field 11
+Local Transaction Time - Field 12
+Local Transaction Date - Field 13
+Expiration Date - Field 14
+Settlement Date - Field 15
+Merchant Category Code (MCC) - Field 18
+Point of Service Entry Mode (POS Entry Mode) - Field 22
+Card Sequence Number - Field 23
+Function Code - Field 24
+Card Acceptor Business Code (CAB) - Field 26
+Track 1 Data - Field 45
+Authorization Code - Field 38
+Response Code - Field 39
+Card Acceptor Terminal Identification (CATI) - Field 41
+Card Acceptor Identification Code (CAID) - Field 42
+Additional Response Data - Field 44
+Additional Data (private) - Field 46
+Amounts, Fees - Field 28
+Additional Data (ISO) - Field 48
+Additional Data (national) - Field 49
+Security Related Control Information - Field 53
+Additional Amounts - Field 54
+Integrated Circuit Card Data - Field 55
+Original Data Elements - Field 90
+Replacement Amounts - Field 95
+
+Thisrd List: more ISO 8583 fields that are commonly used in payment transactions
+------------------------------
+
+Authorization Life Cycle Code - Field 32
+Acquiring Institution Identification Code - Field 33
+Forwarding Institution Identification Code - Field 33 (if used differently from acquiring institution)
+Track 3 Data - Field 36
+Retrieval Reference Number (RRN) - Field 37
+Message Authentication Code (MAC) - Field 64
+Original Data Elements - Field 90
+Reconciliation Date - Field 94
+Reconciliation Indicator - Field 95
+Reconciliation Amounts - Field 95
+Issuer Script Results - Field 44
+Additional Data (private) - Field 48
+Additional Data (private) - Field 57
+Authorizing Agent Institution ID Code - Field 58
+Cardholder Identification Code (CID) - Field 59
+Additional Data (private) - Field 61
+Additional Data (private) - Field 62
+Original Data Elements - Field 123
+Destination Institution Identification Code - Field 124
+Source Institution Identification Code - Field 125
+Amount, Settle (conversion) - Field 125
+Amount, Cardholder Billing (conversion) - Field 125
+Message Reason Code - Field 126
+Field 127 - Reserved for private use
+Field 128 - Reserved for private use
+
+
+Forth List: more ISO 8583 fields that are commonly used in payment transactions
+-------------------------------------------------------------------------------
+
+Financial Network Code - Field 38
+Authorization Identification Response Length - Field 39
+Response Message Type - Field 40
+Service Restriction Code - Field 41
+Card Acceptor Terminal Location - Field 43
+Additional Response Data - Field 44
+Additional Data (ISO) - Field 45
+Track 1 Data - Field 46
+Amount, Fees (Settlement) - Field 47
+Additional Data (national) - Field 48
+Additional Data (private) - Field 49
+Currency Code, Settlement - Field 50
+Currency Code, Cardholder Billing - Field 51
+Personal Identification Number (PIN) Data - Field 52
+Security-Related Control Information - Field 53
+Additional Amounts - Field 54
+ICC Data - Field 55
+Reserved ISO - Field 56
+Reserved ISO - Field 57
+Reserved National - Field 58
+Reserved National - Field 59
+Reserved National - Field 60
+Reserved National - Field 61
+Reserved Private - Field 62
+Reserved Private - Field 63
+Message Authentication Code (MAC) Extended - Field 64
+Reserved Private - Field 65
+Reserved Private - Field 66
+Reserved Private - Field 67
+Extended Payment Data - Field 68
+Receiving Institution Country Code - Field 69
+Settlement Institution Country Code - Field 70
+Network Management Code - Field 70
+Message Number - Field 71
+Message Number, Last - Field 72
+Date, Action - Field 73
+Credits, Number - Field 74
+Credits, Reversal Number - Field 75
+Debits, Number - Field 76
+Debits, Reversal Number - Field 77
+Transfer Number - Field 78
+Transfer, Reversal Number - Field 79
+Inquiries Number - Field 80
+Authorizations, Number - Field 81
+Credits, Processing Fee Amount - Field 82
+Credits, Transaction Fee Amount - Field 83
+Debits, Processing Fee Amount - Field 84
+Debits, Transaction Fee Amount - Field 85
+Credits, Amount - Field 86
+Credit Reversals, Amount - Field 87
+Debits, Amount - Field 88
+Debit Reversals, Amount - Field 89
+Original Data Elements - Field 90
+File Update Code - Field 91
+File Security Code - Field 92
+Response Indicator - Field 93
+Service Indicator - Field 94
+Replacement Amounts - Field 95
+Message Security Code - Field 96
+Reserved National - Field 97
+Reserved National - Field 98
+Reserved National - Field 99
+Settlement Institution Identification Code - Field 100
+Receiving Institution Identification Code - Field 101
+File Name - Field 102
+Account Identification 1 - Field 103
+Account Identification 2 - Field 104
+Transaction Description - Field 105
+Reserved ISO - Field 106
+Reserved ISO - Field 107
+Reserved ISO - Field 108
+Reserved ISO - Field 109
+Reserved ISO - Field 110
+Reserved ISO - Field 111
+Reserved ISO - Field 112
+Reserved ISO - Field 113
+Reserved ISO - Field 114
+Reserved ISO - Field 115
+Reserved ISO - Field 116
+Reserved ISO - Field 117
+Reserved ISO - Field 118
+Reserved ISO - Field 119
+Reserved ISO - Field 120
+Reserved Private - Field 121
+Reserved Private - Field 122
+Reserved National - Field 123
+Destination Institution Identification Code - Field 124
+Source Institution Identification Code - Field 125
+Amount, Settle (Conversion) - Field 126
+Reserved Private - Field 127
+Reserved Private - Field 128
+
